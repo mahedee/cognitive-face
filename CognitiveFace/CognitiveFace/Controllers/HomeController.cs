@@ -167,7 +167,7 @@ namespace CognitiveFace.Controllers
                         }
                     }
                 }
-                catch (FaceAPIException)
+                catch (Exception exp)
                 {
                     //do exception work
                 }
